@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./img/logo.jpeg">
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home | Hotel</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <img src="./img/burger.jpg" class="main-container-img" alt="Home Img" />
+    </div>
+    <div class="main-container-dark"></div>
+
+    <!-- Nav Bar -->
+    <nav>
+      <div class="image">
+        <img src="./img/logo.jpeg" alt="Logo">
+      </div>
+      <h2>Vintage RestroBar</h2>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Service</a></li>
+        <li><a href="booking.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <div class="searchHeading">
+        <p>Order Delivery & Takeout</p>
+      </div>
+      <div class="searchBox">
+        <input type="text" placeholder="Search..." />
+      </div>
+    </div>
+
+    <!-- Main Body -->
+    <div class="main">
+      <p>Chef's Specials</p>
+
+      <!-- Items Card -->
+      <div class="items-card-box">
+        <div class="items-card">
+          <div class="items-card-img">
+            <img src="./img/biryani.png" alt="Burger" />
+          </div>
+          <div class="items-card-text">
+            <h3>Biryani</h3>
+
+            <p class="price">₹ 250</p>
+          </div>
+        </div>
+        <div class="items-card">
+          <div class="items-card-img">
+            <img src="./img/pizza.jpg" alt="Burger" />
+          </div>
+          <div class="items-card-text">
+            <h3>Pizza</h3>
+
+            <p class="price">₹ 499</p>
+          </div>
+        </div>
+        <div class="items-card">
+          <div class="items-card-img">
+            <img src="./img/chowmein.webp" alt="Burger" />
+          </div>
+          <div class="items-card-text">
+            <h3>Chowmein</h3>
+            <p class="price">₹ 150</p>
+          </div>
+        </div>
+        <div class="items-card">
+          <div class="items-card-img">
+            <img src="./img/idli.webp" alt="Burger" />
+          </div>
+          <div class="items-card-text">
+            <h3>Idli</h3>
+
+            <p class="price">₹ 200</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Cards -->
+      <div class="menu">
+        <p>OUR MENU</p>
+        <div class="menu-card-box">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="./img/menu1.jpg" alt="Menu1" />
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="./img/menu2.jpg" alt="Menu1" />
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="./img/menu3 (2).jpg" alt="Menu1" />
+            </div>
+          </div>
+          <div class="menu-card" id="menu4">
+            <div class="menu-card-img">
+              <img src="./img/menu4.jpg" alt="Menu1" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footerOne">
+        <div class="contact">
+          <h2>Stay Connected</h2>
+          <p>Join our community to get amazing offers</p>
+          <div class="email">
+            <input type="text" placeholder="email address">
+            <button id="signUp">Sign Up</button>
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+        <div class="navigateFooter">
+          <h3>Navigate</h3>
+          <div class="navFooter">
+            <div class="leftnavFooter">
+              <a href="">About Us</a>
+              <a href="">Our Team</a>
+              <a href="">Blogs</a>
+              <a href="">Menu</a>
+            </div>
+            <div class="rightnavFooter">
+              <a href="">Events</a>
+              <a href="">Offers</a>
+              <a href="">Contact Us</a>
+              <a href="">Rate Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerTwo">
+        <div class="footerTwoHeading">
+          <h3>Vintage RestroBar Krishna Plaza, 3rd floor, Nayapalli, Bhubaneswar, Odisha 751012</h3>
+          <a href="">Map</a>
+          <h4>Contact No. - 8596901234, 7019873403</h4>
+        </div>
+        <div class="privacyPolicy">
+          <a href="">Privacy Policy</a>
+          <a href="">&#169 2022 Bipradeep Biswas</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to top -->
+    <div class="scroll-to-top" onclick="scrollToTop()">
+      <img src="https://img.icons8.com/fluency/32/000000/collapse-arrow.png" />
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
